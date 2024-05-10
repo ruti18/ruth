@@ -1,0 +1,57 @@
+html{
+    min-height: 100%;
+    position: relative;
+}
+
+*{ 
+    border: 0;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+header{
+    background-color: lightgreen;
+    width: 100%;
+    top: 0;
+    margin: 0;
+    height: 10em;
+}
+h1{
+    font-family: Georgia;
+}
+.tituloheader{
+    display: flex;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    top: 50px;
+    left: 25em;
+}
+.subtitulo{
+    background-color: white;
+    text-align: justify;
+    width: 300px;
+    margin-top: 5em; 
+    margin-left: 20%;
+
+}
+body h3{
+    font-family:'Trebuchet MS';
+    letter-spacing: 1px;
+    line-height: 2;
+}
+.logoheader{
+    width: 100%;
+    height: 5em;
+    z-index: -1;
+    position: relative;
+    display: flex;
+    bottom: 133px;
+    left: 52em;
+}
+body{
+    background-image: url(imagen\ 6.jpg);
+    margin: 0;
+    top: 0;
+    background-size: cover;
+}
