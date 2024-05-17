@@ -1,0 +1,159 @@
+html{
+    min-height: 100%;
+    position: relative;
+}
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+header{
+    background-color: #2BE077;
+    width: 100%;
+    top: 0;
+    margin: 0;
+    height: 9em;
+}
+h1{
+    font-family: Georgia;
+}
+.tituloheader{
+    display: flex ;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    top: 55px;
+    left: 25em;
+}
+.logoheader{
+    width: 100px;
+    height: 5em;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    left: 12em;
+    bottom: 10px;
+}
+body{
+    background-image: url(imagen\ 6.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+}
+body h3{
+    font-family: 'Trebuchet MS';
+    letter-spacing: 1px;
+    line-height: 2;
+}
+.subtitulo1{
+    background-color: white;
+    text-align: justify;
+    width: 350px;
+    padding: 10px;
+    margin-top: 5em;
+    margin-left: 5em;
+}
+.subtitulo2{
+    background-color: white;
+    text-align: justify;
+    width: 350px;
+    padding: 10px;
+    margin-left: 5em;
+    margin-top: 5em;
+}
+.columma::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.columna{
+    display: flex;
+    position: relative;
+    left: 11em;
+}
+.body1{
+    background-color: #8EE069;
+    text-align: center;
+    font-family: 'Lucida Sans';
+    padding: 15px;
+    font-size: 25px;
+}
+.carrusel{
+    width: 70%;
+    height: auto;
+    overflow: hidden;
+    margin: 50px auto 0;
+}
+.carrusel ul{
+    display: flex;
+    padding: 0;
+    width: 900%;
+    animation: slide 20s infinite alternate ease-in-out;
+}
+.carrusel li{
+    width: 100%;
+    list-style: none;
+}
+.carrusel img{
+    width: 100%;
+}
+@keyframes slide{
+    0% { margin-left: 0; }
+    20% { margin-left: 0; }
+    
+    25% { margin-left: -100%; }
+    45% { margin-left: -100%; }
+
+    50% { margin-left: -200%; }
+    70% { margin-left: -200%; }
+
+    75% { margin-left: -300%; }
+    100% { margin-left: -300%; }
+}
+@media(max-width:991px){
+    body{
+        padding: 30px;
+    }
+    .carrusel{
+        width: 100%;
+    }
+}
+footer{
+    background-color: #7CE08B;
+    width: 100%;
+    margin: 0;
+    top: 0;
+    height: 9em;
+}
+.footer1{
+    font-family:'Trebuchet MS';
+    font-size: 20px;    
+}
+.logomercadopago{
+    position: relative;
+    display: flex;
+    width: 200px;
+    left: 4em;
+}
+.logowasap{
+    position: relative;
+    display: flex;
+    width: 200px;
+    left: 15em;
+    bottom: 9em;
+}
+.logofacebook{
+    position: relative;
+    display: flex;
+    width: 160px;
+    left: 30em;
+    bottom: 16em;
+}
+.logoinstagram{
+    position: relative;
+    display: flex;
+    width: 250px;
+    left: 40em;
+    bottom: 26em;
+}
+
+

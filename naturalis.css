@@ -1,0 +1,133 @@
+html{
+    min-height: 100%;
+    position: relative;
+}
+*{ 
+    border: 0;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+header{
+    background-color: lightgreen;
+    width: 100%;
+    top: 0;
+    margin: 0;
+    height: 10em;
+}
+h1{
+    font-family: Georgia;
+}
+.tituloheader{
+    display: flex;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    top: 50px;
+    left: 25em;
+}
+.subtitulo1{
+    background-color: white;
+    text-align: justify;
+    width: 300px;
+    margin-top: 16em; 
+    margin-left: 20%;
+    padding: 10px;
+}
+.subtitulo2{
+    background-color: white;
+    text-align: justify;
+    width: 350px;
+    margin-top: 1em; 
+    margin-left: 55%;
+    margin-right: 20%;
+    padding: 10px;
+}
+.columna::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body h3{
+    font-family:'Trebuchet MS';
+    letter-spacing: 1px;
+    line-height: 2;
+}
+.logoheader{
+    width: 100%;
+    height: 5em;
+    z-index: -1;
+    position: relative;
+    display: flex;
+    bottom: 133px;
+    left: 52em;
+}
+body{
+    background-image: url(imagen\ 6.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.body1{
+    background-color: aquamarine;
+    text-align: center;
+    font-family: 'Lucida Sans';
+    padding: 15px;
+    font-size: 20px;
+}
+.foto1{
+    position: relative;
+    display: flex;
+    height: 35em;
+    z-index: 1;
+    left: 5em;
+    top: 10em;
+}
+.foto2{
+    position: relative;
+    display: flex;
+    height: 30em;
+    right: 10em;
+    z-index: 1;
+    left: 40em;
+    bottom: 25em;
+}
+.foto3{
+    position: relative;
+    display: flex;
+    height: 15em;
+    z-index: 1;
+    left: 15em;
+    bottom: 21em;
+}
+footer{
+    background-color: white;
+    background-size: auto;
+    width: 100%;
+}
+.logomercadopago{
+    position: relative;
+    display: flex;
+    height: 200px;
+}
+.logowasap{
+    position: relative;
+    display: flex;
+    height: 200px;
+    left: 15em;
+    bottom: 12em;
+}
+.logofacebook{
+    position: relative;
+    display: flex;
+    height: 200px;
+    left: 30em;
+    bottom: 23em;
+}
+.logoinstagram{
+    position: relative;
+    display: flex;
+    height: 200px;
+    left: 45em;
+    bottom: 36em;
+}
